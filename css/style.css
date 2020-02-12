@@ -1,0 +1,85 @@
+html, body{
+    font-family: 'Roboto', Courier, monospace;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.primary-color.bg-dark{
+    /* background-color: #E0E2EF !important; */
+    color: black !important;
+}
+
+ul.navbar-nav.m-auto.text-black{
+    font-weight: 600;
+}
+
+.find-book{
+    position: relative;
+    font-weight: 600 !important;
+}
+.fas.fa-search{
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+}
+
+/* Main1 */
+.btn-floating{
+    padding: 5px 15px;
+    background-color: #C5CBE3;
+}
+
+.card-body h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Main 2 */
+.main2{
+    background-color: #17E9E0;
+}
+/* .main2 h2{
+    
+} */
+
+/* MAIN 3 */
+.purple{
+    color: #A64AC9;
+}
+
+/* MAIN 5 */
+.main-5{
+    background-color: #C5CBE3;
+}
+
+.prevIcon{
+    width: 50px !important;
+    height: 50px !important;
+    color: #242222 !important;
+    margin-right: 120px;
+}
+.nextIcon{
+    width: 50px !important;
+    height: 50px !important;
+    color: #242222 !important;
+    margin-left: 120px;
+}
+
+/* MAIN 6 */
+
+.formInputs{
+    padding: 30px;
+}
+
+
+/* FOOTER */
+/* footer 1 */
+.black-footer{
+    background-color: #020202;
+}
+.footer-padding{
+    padding-left: 7rem !important;
+}
+
+/* FOOTER 2 */
+.footer2{
+    background-color: #FCCD05;
+}
