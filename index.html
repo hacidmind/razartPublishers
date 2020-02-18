@@ -73,7 +73,7 @@
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
                     <li class="nav-item active mx-4 pt-3">
-                        <a class="nav-link btn btn-warning my-2 my-sm-0 rounded-0" href="#">REGISTER</a>
+                        <a class="nav-link btn btn-warning my-2 my-sm-0 rounded-0 read" href="#">REGISTER</a>
                     </li>
 
                 </ul>
@@ -86,8 +86,8 @@
         <!--/.Navbar-->
 
         <!-- Landing Page -->
-        <div class="container-fluid mb-3">
-            <img src="img/banner.jpg" alt="Banner" class="img-fluid">
+        <div class="container-fluid landing-page mb-3 px-0">
+            <img src="img/banner.jpg" alt="Banner" class="img-fluid w-100">
         </div>
 
         <!--  -->
@@ -95,27 +95,32 @@
             <div class="row mb-5">
                 <div class="col-md-4">
                     <!-- Input Fields -->
-                    <input class="form-control" type="text" placeholder="Book title">
+                    <input class="form-control book-title rounded-0" type="text" placeholder="Book title">
                 </div>
                 <div class="col-md-4">
-                    <!-- Basic dropdown -->
-                    <!-- <a class="btn btn-primary dropdown-toggle mr-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        href="#">Basic dropdown</a>                 -->
-                    <a class="btn dropdown-toggle border form-control" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false" href="#">Basic dropdown</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <a class="dropdown-item" href="#">Separated link</a>
+
+                    <!-- <select class="browser-default custom-select">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select> -->
+
+                    <div class="form-group">
+                        <select class="form-control book-title">
+                            <option>Book category</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
                     </div>
-                    <!-- Basic dropdown -->
+
                 </div>
                 <div class="col-md-4">
                     <!-- <button class="btn btn-rounded btn-sm my-0 ml-sm-2 bg-warning" type="submit">Search</button> -->
-                    <button type="button" class="btn btn-warning btn-rounded btn-md form-control find-book">FIND
-                        BOOK</button>
-                    <i class="fas fa-search fa-lg  "></i>
+                    <button type="button" class="btn btn-warning btn-md form-control find-book">FIND
+                        BOOK <i class="fas fa-search fa-lg  "></i></button>
+
                 </div>
             </div>
         </div>
@@ -141,199 +146,96 @@
                     </div>
                     <!--/.Controls-->
                 </div>
+            </div>
+        </div>
 
-                <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
 
-                    <!--Indicators-->
-                    <!-- <ol class="carousel-indicators">
+            <!--Indicators-->
+            <!-- <ol class="carousel-indicators">
                         <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselControls" data-slide-to="1"></li>
                         <li data-target="#carouselControls" data-slide-to="2"></li>
                     </ol> -->
-                    <!--/.Indicators-->
+            <!--/.Indicators-->
 
-                    <div class="carousel-inner">
-                        <!-- First Slide -->
-                        <div class="carousel-item active">
-                            <!-- Card deck -->
-                            <div class="card-deck">
 
-                                <!-- Card -->
-                                <div class="card mb-4">
+            <div class="carousel-inner mt-5" role="listbox">
 
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover1.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title">Comprehensive <br> Verbal Reasoning <br> Volume 1</h4>
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-
-                                    </div>
-
-                                </div>
-                                <!-- Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover2.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title pb-4">Agricultural Science <br> Basic 4</h4>
-
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-
-                                    </div>
-
-                                </div>
-                                <!-- Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover3.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title pb-4">Science Foundation <br> Age 2-3 </h4>
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover4.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title">Effective Vocational <br> Aptitude <br> Basic 3</h4>
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-
-                                    </div>
-
-                                </div>
-                                <!-- Card -->
-
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="/img/cover1.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4">Comprehensive <br> Verbal Reasoning <br> Volume 1</h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
                             </div>
-                            <!-- Card deck -->
-                        </div>
-
-
-                        <!-- Second slide -->
-                        <div class="carousel-item">
-                            <!-- Card deck -->
-                            <div class="card-deck">
-
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover8.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title">Comprehensive <br> Quantitative Reasoning <br> Volume 1
-                                        </h4>
-
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-
-                                    </div>
-
-                                </div>
-                                <!-- Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover6.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title pb-4">Picture Time <br> Volume 1</h4>
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-
-                                    </div>
-
-                                </div>
-                                <!-- Card -->
-
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover7.jpg" alt="Card image cap">
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                        <!--Title-->
-                                        <h4 class="card-title">Integrated Primary <br> English Studies <br> Basic 1</h4>
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-
-
-                                <!-- Card -->
-                                <div class="card mb-4">
-
-                                    <!--Card image-->
-                                    <img class="card-img-top" src="img/cover5.jpg" alt="Card image cap">
-                                    <!--Card content-->
-                                    <div class="card-body">
-                                        <!--Title-->
-                                        <h4 class="card-title">Ade Ori Okin <br> Iwe Ede Yoruba <br> Ipele Keta</h4>
-                                        <button type="button" class="btn btn-warning mt-5 rounded-0">Read more</button>
-
-                                    </div>
-
-                                </div>
-                                <!-- Card -->
-
-
-
-
-
-
+                            <div class="col-lg-3">
+                                <img src="/img/cover2.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4 pb-4">Agricultural Science <br> Basic 4 <br></h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
                             </div>
-                            <!-- Card deck -->
+                            <div class="col-lg-3">
+                                <img src="/img/cover3.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4 pb-4">Science Foundation <br> Ages 2-3</h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <img src="/img/cover4.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4">Effective Vocational <br> Aptitude <br> Basic 3</h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
+                            </div>
                         </div>
-
                     </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a> -->
-
                 </div>
+
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="/img/cover8.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4">Comprehensive <br> Quantitative Reasoning <br> Volume 1</h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <img src="/img/cover7.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4">Picture Time <br> Volume 1 <br></h4> <br> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <img src="/img/cover6.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4">Integrated Primary <br> English Studies <br> Basic 1</h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <img src="/img/cover5.jpg" alt="cover" class="img-fluid w-100 mb-3">
+                                <h4 class="h4">Ade Ori Okin <br> Iwe Ede Yoruba <br> Ipele Keta</h4> <br>
+                                <a href="#" class="btn btn-warning rounded-0 read">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+<div class="container">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-12 text-center">
+            <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselControls" data-slide-to="1"></li>
+            <li data-target="#carouselControls" data-slide-to="3"></li>
+            <li data-target="#carouselControls" data-slide-to="4"></li>
+        
+        </ol>
+        <!--/.Indicators-->
+    </div>
+    </div>
+</div>
+
 
         <!-- MAIN 2 -->
         <div class="container-fluid">
@@ -381,7 +283,7 @@
         <!-- MAIN 4 -->
         <div class="container-fluid">
             <div class="row mt-5">
-                <img src="./img/banner_2.jpg" alt="banner" class="img-fluid">
+                <img src="./img/banner_2.jpg" alt="banner" class="img-fluid w-100">
             </div>
         </div>
 
@@ -393,125 +295,134 @@
                 </div>
 
                 <div class="col-md-12 p-5">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="Controls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
 
                             <!-- SLIDE 1 -->
-                            <div class="carousel-item active px-5">
-                                <div class="row text-center">
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/blue.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
-                                    </div>
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/grey.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
-                                    </div>
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/yellow.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- SLIDE 2 -->
-                            <div class="carousel-item px-5">
-                                <div class="row text-center">
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/blue.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
-                                    </div>
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/grey.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
-                                    </div>
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/yellow.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
+                            <div class="container">
+                                <div class="carousel-item active ">
+                                    <div class="row text-center">
+                                        <div class="col-md-4 ">
+                                            <img src="./img/blue.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="./img/grey.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="./img/yellow.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- SLIDE 3 -->
-                            <div class="carousel-item px-5">
-                                <div class="row text-center">
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/blue.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
+
+                                <!-- SLIDE 2 -->
+                                <div class="carousel-item ">
+                                    <div class="row text-center">
+                                        <div class="col-md-4 ">
+                                            <img src="./img/blue.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="./img/grey.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="./img/yellow.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
                                     </div>
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/grey.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
-                                    </div>
-                                    <div class="col-md-4 px-5">
-                                        <img src="./img/yellow.JPG" alt="mission" class="img-fluid p-1">
-                                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Facere dolorum
-                                            consequatur vitae.
-                                            Cum
-                                            voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
-                                            quibusdam. Dignissimos
-                                            explicabo impedit cum sequi accusamus!</p>
+                                </div>
+
+                                <!-- SLIDE 3 -->
+                                <div class="carousel-item ">
+                                    <div class="row text-center">
+                                        <div class="col-md-4 ">
+                                            <img src="./img/blue.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="./img/grey.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="./img/yellow.JPG" alt="mission" class="img-fluid p-1">
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Facere dolorum
+                                                consequatur vitae.
+                                                Cum
+                                                voluptates illo, dignissimos ad fugit eum vero eligendi nostrum sed
+                                                quibusdam. Dignissimos
+                                                explicabo impedit cum sequi accusamus!</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                            data-slide="prev">
+                        <a class="carousel-control-prev" href="#Controls" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon prevIcon" aria-hidden="true"></span>
                             <span class="sr-only prevIcon">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                            data-slide="next">
+                        <a class="carousel-control-next" href="#Controls" role="button" data-slide="next">
                             <span class="carousel-control-next-icon nextIcon" aria-hidden="true"></span>
                             <span class="sr-only ">Next</span>
                         </a>
@@ -602,6 +513,8 @@
 
 
     </footer>
+
+
 
 
     <!-- Bootstrap JS -->

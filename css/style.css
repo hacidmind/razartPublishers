@@ -2,6 +2,9 @@ html, body{
     font-family: 'Roboto', Courier, monospace;
 }
 
+.primary-color{
+    background-color: #E0E2EF;
+}
 .navbar.navbar-expand-lg.navbar-dark.primary-color.bg-dark{
     /* background-color: #E0E2EF !important; */
     color: black !important;
@@ -14,11 +17,25 @@ ul.navbar-nav.m-auto.text-black{
 .find-book{
     position: relative;
     font-weight: 600 !important;
+    border-radius: 20px !important;
 }
 .fas.fa-search{
     position: absolute;
     left: 35px;
     bottom: 10px;
+}
+
+/* Landing Page */
+/* .landing-page{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 300px;
+} */
+
+.book-title{
+    background-color: #E0E2EF !important;
 }
 
 /* Main1 */
@@ -27,9 +44,12 @@ ul.navbar-nav.m-auto.text-black{
     background-color: #C5CBE3;
 }
 
-.card-body h4{
+.h4{
     font-size: 20px;
     font-weight: 700;
+}
+.read{
+    font-weight: 600 !important;
 }
 
 /* Main 2 */
@@ -82,4 +102,20 @@ ul.navbar-nav.m-auto.text-black{
 /* FOOTER 2 */
 .footer2{
     background-color: #FCCD05;
+}
+
+
+/* Bootstrap slide */
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23232122' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23232122' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators li {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100% !important;
+  background-color: #999999 !important;
 }
