@@ -49,7 +49,7 @@ ul.navbar-nav.m-auto.text-black{
     font-weight: 700;
 }
 .read{
-    font-weight: 600 !important;
+    font-weight: 700 !important;
 }
 
 /* Main 2 */
@@ -114,8 +114,8 @@ ul.navbar-nav.m-auto.text-black{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23232122' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 .carousel-indicators li {
-  width: 30px !important;
-  height: 30px !important;
+  width: 20px !important;
+  height: 20px !important;
   border-radius: 100% !important;
   background-color: #999999 !important;
 }
